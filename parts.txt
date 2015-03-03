@@ -1,6 +1,6 @@
-Arduino micro
+Arduino micro: ATMEGA32U4
 BMS chip: BQ76PL536
 Power resistors
 Charging Mosfet:
 Pack Mosfet:
-Balance Fets:
+Balance Fets: FDN359AN
