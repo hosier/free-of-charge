@@ -1,0 +1,977 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:linear
+LIBS:logo
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:philips
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:special
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:xilinx
+LIBS:bq76pl536a
+LIBS:BMS-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title ""
+Date "5 mar 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1500 2700 1    60   Input ~ 0
+VC6
+Text HLabel 2250 2700 1    60   Input ~ 0
+CB6
+Text HLabel 2750 2700 1    60   Input ~ 0
+VC5
+Text HLabel 3500 2700 1    60   Input ~ 0
+CB5
+Text HLabel 4000 2700 1    60   Input ~ 0
+VC4
+Text HLabel 4750 2700 1    60   Input ~ 0
+CB4
+Text HLabel 5250 2700 1    60   Input ~ 0
+VC3
+Text HLabel 6000 2700 1    60   Input ~ 0
+CB3
+Text HLabel 6500 2700 1    60   Input ~ 0
+VC2
+Text HLabel 7200 2700 1    60   Input ~ 0
+CB2
+Text HLabel 7700 2700 1    60   Input ~ 0
+VC1
+Text HLabel 8450 2700 1    60   Input ~ 0
+CB1
+Text HLabel 8950 2700 1    60   Input ~ 0
+VC0
+Text HLabel 2050 5650 3    60   Input ~ 0
+C6
+Text HLabel 3300 5650 3    60   Input ~ 0
+C5
+Text HLabel 4550 5650 3    60   Input ~ 0
+C4
+Text HLabel 5800 5650 3    60   Input ~ 0
+C3
+Text HLabel 7000 5650 3    60   Input ~ 0
+C2
+Text HLabel 8250 5650 3    60   Input ~ 0
+C1
+$Comp
+L MOS_N Q?
+U 1 1 54F8E1B8
+P 8450 4400
+F 0 "Q?" H 8460 4570 50  0000 R CNN
+F 1 "MOS_N" H 8400 4250 50  0000 R CNN
+F 2 "" H 8450 4400 60  0000 C CNN
+F 3 "" H 8450 4400 60  0000 C CNN
+	1    8450 4400
+	0    -1   1    0   
+$EndComp
+$Comp
+L ZENER D?
+U 1 1 54F8E1D1
+P 8650 3900
+F 0 "D?" H 8650 4000 50  0000 C CNN
+F 1 "ZENER" H 8650 3800 50  0000 C CNN
+F 2 "" H 8650 3900 60  0000 C CNN
+F 3 "" H 8650 3900 60  0000 C CNN
+	1    8650 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ZENER D?
+U 1 1 54F8E1DE
+P 8450 5200
+F 0 "D?" H 8450 5300 50  0000 C CNN
+F 1 "ZENER" H 8450 5100 50  0000 C CNN
+F 2 "" H 8450 5200 60  0000 C CNN
+F 3 "" H 8450 5200 60  0000 C CNN
+	1    8450 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E1E6
+P 8700 3550
+F 0 "R?" V 8780 3550 50  0000 C CNN
+F 1 "R" V 8707 3551 50  0000 C CNN
+F 2 "" V 8630 3550 30  0000 C CNN
+F 3 "" H 8700 3550 30  0000 C CNN
+	1    8700 3550
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E1F3
+P 8450 3150
+F 0 "R?" V 8530 3150 50  0000 C CNN
+F 1 "R" V 8457 3151 50  0000 C CNN
+F 2 "" V 8380 3150 30  0000 C CNN
+F 3 "" H 8450 3150 30  0000 C CNN
+	1    8450 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E1F9
+P 1500 3150
+F 0 "R?" V 1580 3150 50  0000 C CNN
+F 1 "R" V 1507 3151 50  0000 C CNN
+F 2 "" V 1430 3150 30  0000 C CNN
+F 3 "" H 1500 3150 30  0000 C CNN
+	1    1500 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E1FF
+P 8250 4850
+F 0 "R?" V 8330 4850 50  0000 C CNN
+F 1 "R" V 8257 4851 50  0000 C CNN
+F 2 "" V 8180 4850 30  0000 C CNN
+F 3 "" H 8250 4850 30  0000 C CNN
+	1    8250 4850
+	1    0    0    1   
+$EndComp
+$Comp
+L VSS #PWR?
+U 1 1 54F8E282
+P 1750 3300
+F 0 "#PWR?" H 1750 3150 60  0001 C CNN
+F 1 "VSS" H 1750 3450 60  0000 C CNN
+F 2 "" H 1750 3300 60  0000 C CNN
+F 3 "" H 1750 3300 60  0000 C CNN
+	1    1750 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 54F8E240
+P 1750 3100
+F 0 "C?" H 1800 3200 50  0000 L CNN
+F 1 "C" H 1800 3000 50  0000 L CNN
+F 2 "" H 1788 2950 30  0000 C CNN
+F 3 "" H 1750 3100 60  0000 C CNN
+	1    1750 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 54F8E2D6
+P 8450 5450
+F 0 "C?" H 8500 5550 50  0000 L CNN
+F 1 "C" H 8500 5350 50  0000 L CNN
+F 2 "" H 8488 5300 30  0000 C CNN
+F 3 "" H 8450 5450 60  0000 C CNN
+	1    8450 5450
+	0    -1   1    0   
+$EndComp
+$Comp
+L MOS_N Q?
+U 1 1 54F8E308
+P 7200 4400
+F 0 "Q?" H 7210 4570 50  0000 R CNN
+F 1 "MOS_N" H 7150 4250 50  0000 R CNN
+F 2 "" H 7200 4400 60  0000 C CNN
+F 3 "" H 7200 4400 60  0000 C CNN
+	1    7200 4400
+	0    -1   1    0   
+$EndComp
+$Comp
+L ZENER D?
+U 1 1 54F8E30E
+P 7400 3900
+F 0 "D?" H 7400 4000 50  0000 C CNN
+F 1 "ZENER" H 7400 3800 50  0000 C CNN
+F 2 "" H 7400 3900 60  0000 C CNN
+F 3 "" H 7400 3900 60  0000 C CNN
+	1    7400 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ZENER D?
+U 1 1 54F8E314
+P 7200 5200
+F 0 "D?" H 7200 5300 50  0000 C CNN
+F 1 "ZENER" H 7200 5100 50  0000 C CNN
+F 2 "" H 7200 5200 60  0000 C CNN
+F 3 "" H 7200 5200 60  0000 C CNN
+	1    7200 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E31A
+P 7450 3550
+F 0 "R?" V 7530 3550 50  0000 C CNN
+F 1 "R" V 7457 3551 50  0000 C CNN
+F 2 "" V 7380 3550 30  0000 C CNN
+F 3 "" H 7450 3550 30  0000 C CNN
+	1    7450 3550
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E320
+P 7200 3150
+F 0 "R?" V 7280 3150 50  0000 C CNN
+F 1 "R" V 7207 3151 50  0000 C CNN
+F 2 "" V 7130 3150 30  0000 C CNN
+F 3 "" H 7200 3150 30  0000 C CNN
+	1    7200 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E326
+P 7700 3150
+F 0 "R?" V 7780 3150 50  0000 C CNN
+F 1 "R" V 7707 3151 50  0000 C CNN
+F 2 "" V 7630 3150 30  0000 C CNN
+F 3 "" H 7700 3150 30  0000 C CNN
+	1    7700 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E32C
+P 7000 4850
+F 0 "R?" V 7080 4850 50  0000 C CNN
+F 1 "R" V 7007 4851 50  0000 C CNN
+F 2 "" V 6930 4850 30  0000 C CNN
+F 3 "" H 7000 4850 30  0000 C CNN
+	1    7000 4850
+	1    0    0    1   
+$EndComp
+$Comp
+L VSS #PWR?
+U 1 1 54F8E332
+P 7950 3300
+F 0 "#PWR?" H 7950 3150 60  0001 C CNN
+F 1 "VSS" H 7950 3450 60  0000 C CNN
+F 2 "" H 7950 3300 60  0000 C CNN
+F 3 "" H 7950 3300 60  0000 C CNN
+	1    7950 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 54F8E338
+P 7950 3100
+F 0 "C?" H 8000 3200 50  0000 L CNN
+F 1 "C" H 8000 3000 50  0000 L CNN
+F 2 "" H 7988 2950 30  0000 C CNN
+F 3 "" H 7950 3100 60  0000 C CNN
+	1    7950 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 54F8E34B
+P 7200 5450
+F 0 "C?" H 7250 5550 50  0000 L CNN
+F 1 "C" H 7250 5350 50  0000 L CNN
+F 2 "" H 7238 5300 30  0000 C CNN
+F 3 "" H 7200 5450 60  0000 C CNN
+	1    7200 5450
+	0    -1   1    0   
+$EndComp
+$Comp
+L MOS_N Q?
+U 1 1 54F8E354
+P 6000 4400
+F 0 "Q?" H 6010 4570 50  0000 R CNN
+F 1 "MOS_N" H 5950 4250 50  0000 R CNN
+F 2 "" H 6000 4400 60  0000 C CNN
+F 3 "" H 6000 4400 60  0000 C CNN
+	1    6000 4400
+	0    -1   1    0   
+$EndComp
+$Comp
+L ZENER D?
+U 1 1 54F8E35A
+P 6200 3900
+F 0 "D?" H 6200 4000 50  0000 C CNN
+F 1 "ZENER" H 6200 3800 50  0000 C CNN
+F 2 "" H 6200 3900 60  0000 C CNN
+F 3 "" H 6200 3900 60  0000 C CNN
+	1    6200 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ZENER D?
+U 1 1 54F8E360
+P 6000 5200
+F 0 "D?" H 6000 5300 50  0000 C CNN
+F 1 "ZENER" H 6000 5100 50  0000 C CNN
+F 2 "" H 6000 5200 60  0000 C CNN
+F 3 "" H 6000 5200 60  0000 C CNN
+	1    6000 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E366
+P 6250 3550
+F 0 "R?" V 6330 3550 50  0000 C CNN
+F 1 "R" V 6257 3551 50  0000 C CNN
+F 2 "" V 6180 3550 30  0000 C CNN
+F 3 "" H 6250 3550 30  0000 C CNN
+	1    6250 3550
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E36C
+P 6000 3150
+F 0 "R?" V 6080 3150 50  0000 C CNN
+F 1 "R" V 6007 3151 50  0000 C CNN
+F 2 "" V 5930 3150 30  0000 C CNN
+F 3 "" H 6000 3150 30  0000 C CNN
+	1    6000 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E372
+P 6500 3150
+F 0 "R?" V 6580 3150 50  0000 C CNN
+F 1 "R" V 6507 3151 50  0000 C CNN
+F 2 "" V 6430 3150 30  0000 C CNN
+F 3 "" H 6500 3150 30  0000 C CNN
+	1    6500 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E378
+P 5800 4850
+F 0 "R?" V 5880 4850 50  0000 C CNN
+F 1 "R" V 5807 4851 50  0000 C CNN
+F 2 "" V 5730 4850 30  0000 C CNN
+F 3 "" H 5800 4850 30  0000 C CNN
+	1    5800 4850
+	1    0    0    1   
+$EndComp
+$Comp
+L VSS #PWR?
+U 1 1 54F8E37E
+P 6750 3300
+F 0 "#PWR?" H 6750 3150 60  0001 C CNN
+F 1 "VSS" H 6750 3450 60  0000 C CNN
+F 2 "" H 6750 3300 60  0000 C CNN
+F 3 "" H 6750 3300 60  0000 C CNN
+	1    6750 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 54F8E384
+P 6750 3100
+F 0 "C?" H 6800 3200 50  0000 L CNN
+F 1 "C" H 6800 3000 50  0000 L CNN
+F 2 "" H 6788 2950 30  0000 C CNN
+F 3 "" H 6750 3100 60  0000 C CNN
+	1    6750 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 54F8E397
+P 6000 5450
+F 0 "C?" H 6050 5550 50  0000 L CNN
+F 1 "C" H 6050 5350 50  0000 L CNN
+F 2 "" H 6038 5300 30  0000 C CNN
+F 3 "" H 6000 5450 60  0000 C CNN
+	1    6000 5450
+	0    -1   1    0   
+$EndComp
+$Comp
+L MOS_N Q?
+U 1 1 54F8E3A0
+P 4750 4400
+F 0 "Q?" H 4760 4570 50  0000 R CNN
+F 1 "MOS_N" H 4700 4250 50  0000 R CNN
+F 2 "" H 4750 4400 60  0000 C CNN
+F 3 "" H 4750 4400 60  0000 C CNN
+	1    4750 4400
+	0    -1   1    0   
+$EndComp
+$Comp
+L ZENER D?
+U 1 1 54F8E3A6
+P 4950 3900
+F 0 "D?" H 4950 4000 50  0000 C CNN
+F 1 "ZENER" H 4950 3800 50  0000 C CNN
+F 2 "" H 4950 3900 60  0000 C CNN
+F 3 "" H 4950 3900 60  0000 C CNN
+	1    4950 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ZENER D?
+U 1 1 54F8E3AC
+P 4750 5200
+F 0 "D?" H 4750 5300 50  0000 C CNN
+F 1 "ZENER" H 4750 5100 50  0000 C CNN
+F 2 "" H 4750 5200 60  0000 C CNN
+F 3 "" H 4750 5200 60  0000 C CNN
+	1    4750 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E3B2
+P 5000 3550
+F 0 "R?" V 5080 3550 50  0000 C CNN
+F 1 "R" V 5007 3551 50  0000 C CNN
+F 2 "" V 4930 3550 30  0000 C CNN
+F 3 "" H 5000 3550 30  0000 C CNN
+	1    5000 3550
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E3B8
+P 4750 3150
+F 0 "R?" V 4830 3150 50  0000 C CNN
+F 1 "R" V 4757 3151 50  0000 C CNN
+F 2 "" V 4680 3150 30  0000 C CNN
+F 3 "" H 4750 3150 30  0000 C CNN
+	1    4750 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E3BE
+P 5250 3150
+F 0 "R?" V 5330 3150 50  0000 C CNN
+F 1 "R" V 5257 3151 50  0000 C CNN
+F 2 "" V 5180 3150 30  0000 C CNN
+F 3 "" H 5250 3150 30  0000 C CNN
+	1    5250 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E3C4
+P 4550 4850
+F 0 "R?" V 4630 4850 50  0000 C CNN
+F 1 "R" V 4557 4851 50  0000 C CNN
+F 2 "" V 4480 4850 30  0000 C CNN
+F 3 "" H 4550 4850 30  0000 C CNN
+	1    4550 4850
+	1    0    0    1   
+$EndComp
+$Comp
+L VSS #PWR?
+U 1 1 54F8E3CA
+P 5500 3300
+F 0 "#PWR?" H 5500 3150 60  0001 C CNN
+F 1 "VSS" H 5500 3450 60  0000 C CNN
+F 2 "" H 5500 3300 60  0000 C CNN
+F 3 "" H 5500 3300 60  0000 C CNN
+	1    5500 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 54F8E3D0
+P 5500 3100
+F 0 "C?" H 5550 3200 50  0000 L CNN
+F 1 "C" H 5550 3000 50  0000 L CNN
+F 2 "" H 5538 2950 30  0000 C CNN
+F 3 "" H 5500 3100 60  0000 C CNN
+	1    5500 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 54F8E3E3
+P 4750 5450
+F 0 "C?" H 4800 5550 50  0000 L CNN
+F 1 "C" H 4800 5350 50  0000 L CNN
+F 2 "" H 4788 5300 30  0000 C CNN
+F 3 "" H 4750 5450 60  0000 C CNN
+	1    4750 5450
+	0    -1   1    0   
+$EndComp
+$Comp
+L MOS_N Q?
+U 1 1 54F8E3EC
+P 3500 4400
+F 0 "Q?" H 3510 4570 50  0000 R CNN
+F 1 "MOS_N" H 3450 4250 50  0000 R CNN
+F 2 "" H 3500 4400 60  0000 C CNN
+F 3 "" H 3500 4400 60  0000 C CNN
+	1    3500 4400
+	0    -1   1    0   
+$EndComp
+$Comp
+L ZENER D?
+U 1 1 54F8E3F2
+P 3700 3900
+F 0 "D?" H 3700 4000 50  0000 C CNN
+F 1 "ZENER" H 3700 3800 50  0000 C CNN
+F 2 "" H 3700 3900 60  0000 C CNN
+F 3 "" H 3700 3900 60  0000 C CNN
+	1    3700 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ZENER D?
+U 1 1 54F8E3F8
+P 3500 5200
+F 0 "D?" H 3500 5300 50  0000 C CNN
+F 1 "ZENER" H 3500 5100 50  0000 C CNN
+F 2 "" H 3500 5200 60  0000 C CNN
+F 3 "" H 3500 5200 60  0000 C CNN
+	1    3500 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E3FE
+P 3750 3550
+F 0 "R?" V 3830 3550 50  0000 C CNN
+F 1 "R" V 3757 3551 50  0000 C CNN
+F 2 "" V 3680 3550 30  0000 C CNN
+F 3 "" H 3750 3550 30  0000 C CNN
+	1    3750 3550
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E404
+P 3500 3150
+F 0 "R?" V 3580 3150 50  0000 C CNN
+F 1 "R" V 3507 3151 50  0000 C CNN
+F 2 "" V 3430 3150 30  0000 C CNN
+F 3 "" H 3500 3150 30  0000 C CNN
+	1    3500 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E40A
+P 4000 3150
+F 0 "R?" V 4080 3150 50  0000 C CNN
+F 1 "R" V 4007 3151 50  0000 C CNN
+F 2 "" V 3930 3150 30  0000 C CNN
+F 3 "" H 4000 3150 30  0000 C CNN
+	1    4000 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E410
+P 3300 4850
+F 0 "R?" V 3380 4850 50  0000 C CNN
+F 1 "R" V 3307 4851 50  0000 C CNN
+F 2 "" V 3230 4850 30  0000 C CNN
+F 3 "" H 3300 4850 30  0000 C CNN
+	1    3300 4850
+	1    0    0    1   
+$EndComp
+$Comp
+L VSS #PWR?
+U 1 1 54F8E416
+P 4250 3300
+F 0 "#PWR?" H 4250 3150 60  0001 C CNN
+F 1 "VSS" H 4250 3450 60  0000 C CNN
+F 2 "" H 4250 3300 60  0000 C CNN
+F 3 "" H 4250 3300 60  0000 C CNN
+	1    4250 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 54F8E41C
+P 4250 3100
+F 0 "C?" H 4300 3200 50  0000 L CNN
+F 1 "C" H 4300 3000 50  0000 L CNN
+F 2 "" H 4288 2950 30  0000 C CNN
+F 3 "" H 4250 3100 60  0000 C CNN
+	1    4250 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 54F8E42F
+P 3500 5450
+F 0 "C?" H 3550 5550 50  0000 L CNN
+F 1 "C" H 3550 5350 50  0000 L CNN
+F 2 "" H 3538 5300 30  0000 C CNN
+F 3 "" H 3500 5450 60  0000 C CNN
+	1    3500 5450
+	0    -1   1    0   
+$EndComp
+$Comp
+L MOS_N Q?
+U 1 1 54F8E438
+P 2250 4400
+F 0 "Q?" H 2260 4570 50  0000 R CNN
+F 1 "MOS_N" H 2200 4250 50  0000 R CNN
+F 2 "" H 2250 4400 60  0000 C CNN
+F 3 "" H 2250 4400 60  0000 C CNN
+	1    2250 4400
+	0    -1   1    0   
+$EndComp
+$Comp
+L ZENER D?
+U 1 1 54F8E43E
+P 2450 3900
+F 0 "D?" H 2450 4000 50  0000 C CNN
+F 1 "ZENER" H 2450 3800 50  0000 C CNN
+F 2 "" H 2450 3900 60  0000 C CNN
+F 3 "" H 2450 3900 60  0000 C CNN
+	1    2450 3900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ZENER D?
+U 1 1 54F8E444
+P 2250 5200
+F 0 "D?" H 2250 5300 50  0000 C CNN
+F 1 "ZENER" H 2250 5100 50  0000 C CNN
+F 2 "" H 2250 5200 60  0000 C CNN
+F 3 "" H 2250 5200 60  0000 C CNN
+	1    2250 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E44A
+P 2500 3550
+F 0 "R?" V 2580 3550 50  0000 C CNN
+F 1 "R" V 2507 3551 50  0000 C CNN
+F 2 "" V 2430 3550 30  0000 C CNN
+F 3 "" H 2500 3550 30  0000 C CNN
+	1    2500 3550
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E450
+P 2250 3150
+F 0 "R?" V 2330 3150 50  0000 C CNN
+F 1 "R" V 2257 3151 50  0000 C CNN
+F 2 "" V 2180 3150 30  0000 C CNN
+F 3 "" H 2250 3150 30  0000 C CNN
+	1    2250 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E456
+P 2750 3150
+F 0 "R?" V 2830 3150 50  0000 C CNN
+F 1 "R" V 2757 3151 50  0000 C CNN
+F 2 "" V 2680 3150 30  0000 C CNN
+F 3 "" H 2750 3150 30  0000 C CNN
+	1    2750 3150
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 54F8E45C
+P 2050 4850
+F 0 "R?" V 2130 4850 50  0000 C CNN
+F 1 "R" V 2057 4851 50  0000 C CNN
+F 2 "" V 1980 4850 30  0000 C CNN
+F 3 "" H 2050 4850 30  0000 C CNN
+	1    2050 4850
+	1    0    0    1   
+$EndComp
+$Comp
+L VSS #PWR?
+U 1 1 54F8E462
+P 3000 3300
+F 0 "#PWR?" H 3000 3150 60  0001 C CNN
+F 1 "VSS" H 3000 3450 60  0000 C CNN
+F 2 "" H 3000 3300 60  0000 C CNN
+F 3 "" H 3000 3300 60  0000 C CNN
+	1    3000 3300
+	1    0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 54F8E468
+P 3000 3100
+F 0 "C?" H 3050 3200 50  0000 L CNN
+F 1 "C" H 3050 3000 50  0000 L CNN
+F 2 "" H 3038 2950 30  0000 C CNN
+F 3 "" H 3000 3100 60  0000 C CNN
+	1    3000 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 54F8E47B
+P 2250 5450
+F 0 "C?" H 2300 5550 50  0000 L CNN
+F 1 "C" H 2300 5350 50  0000 L CNN
+F 2 "" H 2288 5300 30  0000 C CNN
+F 3 "" H 2250 5450 60  0000 C CNN
+	1    2250 5450
+	0    -1   1    0   
+$EndComp
+Text HLabel 8950 5650 3    60   Input ~ 0
+C0
+Wire Wire Line
+	8450 3400 8450 4200
+Wire Wire Line
+	8950 3900 8850 3900
+Connection ~ 8950 3550
+Wire Wire Line
+	8950 4500 8650 4500
+Connection ~ 8950 3900
+Connection ~ 8450 3900
+Connection ~ 8450 3550
+Wire Wire Line
+	8250 4500 8250 4600
+Wire Wire Line
+	8250 5100 8250 5650
+Wire Wire Line
+	8950 5200 8650 5200
+Connection ~ 8950 4500
+Wire Wire Line
+	1500 2900 1750 2900
+Wire Wire Line
+	8950 5450 8650 5450
+Connection ~ 8950 5200
+Connection ~ 8250 5200
+Wire Wire Line
+	7200 3400 7200 4200
+Wire Wire Line
+	7700 3900 7600 3900
+Connection ~ 7700 3550
+Wire Wire Line
+	7700 4500 7400 4500
+Connection ~ 7700 3900
+Connection ~ 7200 3900
+Connection ~ 7200 3550
+Wire Wire Line
+	7000 4500 7000 4600
+Wire Wire Line
+	7000 5100 7000 5650
+Wire Wire Line
+	7700 5200 7400 5200
+Connection ~ 7700 4500
+Wire Wire Line
+	7700 2900 7950 2900
+Wire Wire Line
+	7400 5450 8250 5450
+Connection ~ 7700 5200
+Connection ~ 7000 5200
+Wire Wire Line
+	6000 3400 6000 4200
+Wire Wire Line
+	6500 3900 6400 3900
+Connection ~ 6500 3550
+Wire Wire Line
+	6500 4500 6200 4500
+Connection ~ 6500 3900
+Connection ~ 6000 3900
+Connection ~ 6000 3550
+Wire Wire Line
+	5800 4500 5800 4600
+Wire Wire Line
+	5800 5100 5800 5650
+Wire Wire Line
+	6500 5200 6200 5200
+Connection ~ 6500 4500
+Wire Wire Line
+	6500 2900 6750 2900
+Wire Wire Line
+	6200 5450 7000 5450
+Connection ~ 6500 5200
+Connection ~ 5800 5200
+Wire Wire Line
+	4750 3400 4750 4200
+Wire Wire Line
+	5250 3900 5150 3900
+Connection ~ 5250 3550
+Wire Wire Line
+	5250 4500 4950 4500
+Connection ~ 5250 3900
+Connection ~ 4750 3900
+Connection ~ 4750 3550
+Wire Wire Line
+	4550 4500 4550 4600
+Wire Wire Line
+	4550 5100 4550 5650
+Wire Wire Line
+	5250 5200 4950 5200
+Connection ~ 5250 4500
+Wire Wire Line
+	5250 2900 5500 2900
+Wire Wire Line
+	4950 5450 5800 5450
+Connection ~ 5250 5200
+Connection ~ 4550 5200
+Wire Wire Line
+	3500 3400 3500 4200
+Wire Wire Line
+	4000 3900 3900 3900
+Connection ~ 4000 3550
+Wire Wire Line
+	4000 4500 3700 4500
+Connection ~ 4000 3900
+Connection ~ 3500 3900
+Connection ~ 3500 3550
+Wire Wire Line
+	3300 4500 3300 4600
+Wire Wire Line
+	3300 5100 3300 5650
+Wire Wire Line
+	4000 5200 3700 5200
+Connection ~ 4000 4500
+Wire Wire Line
+	4000 2900 4250 2900
+Wire Wire Line
+	3700 5450 4550 5450
+Connection ~ 4000 5200
+Connection ~ 3300 5200
+Wire Wire Line
+	2250 3400 2250 4200
+Wire Wire Line
+	2750 3900 2650 3900
+Connection ~ 2750 3550
+Wire Wire Line
+	2750 4500 2450 4500
+Connection ~ 2750 3900
+Connection ~ 2250 3900
+Connection ~ 2250 3550
+Wire Wire Line
+	2050 4500 2050 4600
+Wire Wire Line
+	2050 5100 2050 5650
+Wire Wire Line
+	2750 5200 2450 5200
+Connection ~ 2750 4500
+Wire Wire Line
+	2750 2900 3000 2900
+Wire Wire Line
+	2450 5450 3300 5450
+Connection ~ 2750 5200
+Connection ~ 2050 5200
+Connection ~ 2750 5450
+Connection ~ 2050 5450
+Connection ~ 3300 5450
+Connection ~ 4000 5450
+Connection ~ 4550 5450
+Connection ~ 5250 5450
+Connection ~ 5800 5450
+Connection ~ 6500 5450
+Connection ~ 7000 5450
+Connection ~ 7700 5450
+Connection ~ 8250 5450
+Connection ~ 8950 5450
+Wire Wire Line
+	2250 2700 2250 2900
+Wire Wire Line
+	2750 2700 2750 2900
+Wire Wire Line
+	3500 2700 3500 2900
+Wire Wire Line
+	4000 2700 4000 2900
+Wire Wire Line
+	4750 2700 4750 2900
+Wire Wire Line
+	5250 2700 5250 2900
+Wire Wire Line
+	6000 2700 6000 2900
+Wire Wire Line
+	6500 2700 6500 2900
+Wire Wire Line
+	7200 2700 7200 2900
+Wire Wire Line
+	7700 2700 7700 2900
+Wire Wire Line
+	8450 2700 8450 2900
+Wire Wire Line
+	1500 2700 1500 2900
+Wire Wire Line
+	1500 3400 1500 5450
+Wire Wire Line
+	8950 2700 8950 5650
+Wire Wire Line
+	7700 3400 7700 5450
+Wire Wire Line
+	6500 5450 6500 5200
+Wire Wire Line
+	6500 3400 6500 5150
+Wire Wire Line
+	5250 3400 5250 5450
+Wire Wire Line
+	4000 3400 4000 5450
+Wire Wire Line
+	2750 3400 2750 5450
+Wire Wire Line
+	1500 5450 2050 5450
+$EndSCHEMATC
