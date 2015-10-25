@@ -9,9 +9,12 @@ Welcome to Free of Charge's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
-
+   about
+   BQ76PL536A
+   ArduinoLibrary
+   ApplicationNotes
 
 Indices and tables
 ==================
