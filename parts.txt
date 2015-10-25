@@ -1,6 +1,0 @@
-Arduino micro
-BMS chip: BQ76PL536
-Power resistors
-Charging Mosfet:
-Pack Mosfet:
-Balance Fets:

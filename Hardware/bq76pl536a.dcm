@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0  Date: Sun Mar 15 22:43:07 2015
-#
-$CMP BQ76PL536A
-D BQ76PL536A  3 to 6 series cell lithium ion battery management and secondary protection IC
-K BMS battery management
-F http://www.ti.com/lit/ds/symlink/bq76pl536a.pdf
-$ENDCMP
-#
-#End Doc Library
