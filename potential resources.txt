@@ -1,6 +1,0 @@
-https://github.com/rickygu/openBMS
-https://www.kickstarter.com/projects/electrodacus/open-source-programmable-solar-bms-development-boa
-http://liionbms.com/php/bms_options.php
-http://open-bldc.org/wiki/Open-BLDC
-https://code.google.com/p/wii-esc/
-https://github.com/bluerobotics/BlueESC/
